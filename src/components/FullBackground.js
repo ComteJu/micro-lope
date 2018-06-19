@@ -24,7 +24,7 @@ const BotBox = styled.div`
 position: fixed; z-index: -21;
 bottom: 0; left: 0;
 width: 100vw; height: 50vh;
-background-color: #DDDDDD;
+background-color: #FCC318;
 `
 
 const Background = styled.img`
@@ -37,10 +37,7 @@ const Mask = styled.div`
   position: fixed; opacity: 0.5; z-index: -20;
   top: 1em; left: 1em; right: 1em; bottom: 1em;
   width: calc(100vw-2em); height: calc(100vh-2em);
-  background: #2193b0;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottop, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottop, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: white;
 `
 
 class FullBg extends React.Component {
