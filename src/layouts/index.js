@@ -22,7 +22,7 @@ class Template extends React.Component {
             margin: 'auto',
             minHeight: '100vh',
             maxWidth: rhythm(40),
-            padding: `${rhythm(1.5)} 4em`,
+            padding: `${rhythm(1.5)} 5vw`,
           }}
         >
           <Header />
