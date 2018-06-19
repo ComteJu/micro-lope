@@ -34,7 +34,7 @@ height: 50vh;
 `
 
 const Mask = styled.div`
-  position: fixed; opacity: 0.5; z-index: -20;
+  position: fixed; opacity: 0.3; z-index: -20;
   top: 1em; left: 1em; right: 1em; bottom: 1em;
   width: calc(100vw-2em); height: calc(100vh-2em);
   background-color: white;

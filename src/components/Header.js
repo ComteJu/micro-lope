@@ -16,7 +16,8 @@ const Wrap = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: ${rhythm(0.5)} 4vw;
+    padding: 0 4vw;
+    padding-top: ${rhythm(0.5)};
     background-color: #FCC318;
 `
 
@@ -25,6 +26,7 @@ const Title = styled.h1`
   font-size: 24px;
   margin-top: 0;
   padding: ${rhythm(0.5)};
+  background-color: #A1C71E;
   border: 3px solid #FCDB76;
   :hover {
       border: 3px solid white;
@@ -42,15 +44,16 @@ class Header extends React.Component {
   render() {
     return (
     <Wrap>
-      <img
+      {/*<img
           src={logo}
           alt={`Logo Microlope`}
           style={{
-            marginBottom: 0,
+            marginBottom: '1vw',
             width: rhythm(2),
             height: rhythm(2),
+            marginRight: '4vw',
           }}
-        />
+        />*/}
       <Title>
         <TitleLink to={'/'}>Micro Lopé</TitleLink>
       </Title>
@@ -58,7 +61,7 @@ class Header extends React.Component {
           src={mail}
           alt={`Contact Microlope`}
           style={{
-            marginBottom: 0,
+            marginBottom: '1vw', marginLeft: '4vw',
             width: rhythm(1),
             height: rhythm(2),
             fill: 'white',

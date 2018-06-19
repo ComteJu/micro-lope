@@ -4,12 +4,14 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import styled from 'styled-components'
+import logo from './logo.png'
+
 
 const Grid = styled.div`
   display: Grid;
   grid-gap: ${rhythm(1.5)};
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
-  padding-top: 50vh; padding-bottom: 10vh;
+  padding-top: 10vh; padding-bottom: 10vh;
 `
 
 const Box = styled.article`
@@ -50,6 +52,15 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
+        <img
+          src={logo}
+          alt={`Logo Microlope`}
+          style={{
+            display: 'block',
+            margin: 'auto',
+            width: rhythm(8),
+          }}
+        />
         <Grid>
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
