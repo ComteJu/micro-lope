@@ -9,25 +9,26 @@ import { rhythm, scale } from '../utils/typography'
 
 const Wrap = styled.div`
     position: fixed;
-    left: 1em; right: 1em; bottom: 0em;
+    left: 0em; right: 0em; bottom: 0em;
     width: calc(100vw-2em);
     z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: ${rhythm(0.5)} ${rhythm(2)};
-    backdrop-filter: blur(10px);
+    padding: ${rhythm(0.5)} 4vw;
+    background-color: #FCC318;
 `
 
 const Title = styled.h1`
   font-family: 'Montserrat, sans-serif';
+  font-size: 24px;
   margin-top: 0;
   padding: ${rhythm(0.5)};
-  border: 3px solid #9C9C9A;
+  border: 3px solid #FCDB76;
   :hover {
       border: 3px solid white;
-      a {color: #9C9C9A;}
+      a {opacity: 0.8}
   }
 `
 
@@ -45,7 +46,6 @@ class Header extends React.Component {
           src={logo}
           alt={`Logo Microlope`}
           style={{
-            marginRight: rhythm(1 / 2),
             marginBottom: 0,
             width: rhythm(2),
             height: rhythm(2),
@@ -58,7 +58,6 @@ class Header extends React.Component {
           src={mail}
           alt={`Contact Microlope`}
           style={{
-            marginRight: rhythm(1 / 2),
             marginBottom: 0,
             width: rhythm(1),
             height: rhythm(2),
