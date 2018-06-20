@@ -121,7 +121,7 @@ export const pageQuery = graphql`
             episode
             image {
               childImageSharp {
-                responsiveSizes(maxWidth: 700) {
+                responsiveSizes(maxWidth: 250) {
                   src
                 }
               }
