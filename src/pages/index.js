@@ -16,7 +16,8 @@ const Grid = styled.div`
 
 const Box = styled.article`
   padding: ${rhythm(0.2)};
-  
+  max-width: 70vw;
+  margin: auto;
 `
 const Card = styled.figure`
   position: relative;
