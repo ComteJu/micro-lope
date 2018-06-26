@@ -7,14 +7,15 @@ import bgPic from './bg-pic.png'
 const Wrap = styled.div`
   max-width: 100vw;
   height: 100vh;
+  max-height: 100vh;
   padding: 2rem 0;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   background-image: url(${bgPic});
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center;
   border-bottom: 1rem solid hsla(191, 70%, 37%, 0.68);
 `
 
