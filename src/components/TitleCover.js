@@ -13,11 +13,12 @@ const Wrap = styled.div`
   align-items: flex-end;
   justify-content: center;
   background-image: url(${bgPic});
-  background-attachment: fixed !important;
+  background-attachment: scroll !important;
   background-size: cover !important;
   background-position: center;
   border-bottom: 1rem solid hsla(191, 70%, 37%, 0.68);
 `
+
 
 const TitleCover = ({ slug, logo}) => (
   <Wrap>
