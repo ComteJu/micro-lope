@@ -10,10 +10,14 @@ doelgerTheme.overrideThemeStyles = () => ({
     boxShadow: 'none',
   },
   '*': {
-    color: 'white',
+    color: '#616161',
   },
   'h1': {
-    color: 'white',
+    fontSize: '1.5em',
+    color: '#616161',
+  },
+  'h2': {
+    color: '#616161',
   },
   'a': {
     textShadow: 'none',

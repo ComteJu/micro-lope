@@ -18,7 +18,7 @@ const Wrap = styled.div`
     justify-content: space-between;
     padding: 0 4vw;
     padding-top: ${rhythm(0.5)};
-    background-color: #FCC318;
+    background-color: white;
 `
 
 const Title = styled.h1`

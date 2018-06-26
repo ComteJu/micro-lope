@@ -1,9 +1,12 @@
 ---
-title: 'Stratégie pour le salaire à vie'
+title: Le salaire à vie
 episode: '#2'
 date: "2018-06-12"
 image: "./image.jpg"
+color: "#fff"
 ---
+
+#Stratégie pour le salaire à vie
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PC99kf4IipE?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

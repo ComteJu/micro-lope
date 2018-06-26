@@ -6,40 +6,20 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import logo from './logo.png'
 
-
 const Grid = styled.div`
   display: Grid;
-  grid-gap: ${rhythm(1.5)};
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
-  padding-top: 10vh; padding-bottom: 10vh;
+  grid-auto-rows: minmax(14em, auto);
+  grid-gap: 1em;
+
 `
 
 const Box = styled.article`
-  padding: ${rhythm(0.2)};
-  max-width: 70vw;
-  margin: auto;
+  max-width: 100%;
 `
 const Card = styled.figure`
-  position: relative;
-`
-const Legend = styled.figcaption`
-position: absolute;
-padding: 0.5em;
-left: 0em; top: 0em;
-  background-color: white;
-  p {
-    font-size: 16px;
-  }
-`
-
-const TopLegend = styled.figcaption`
-position: absolute; 
-padding: 0.2em;
-top: -1.2em; left: 0em;
-  background-color: white;
-  p {
-    color: #9C9C9A; margin: 0;
-  }
+  height: 100%;
+  margin-bottom: 0;
 `
 
 import Bio from '../components/Bio'
@@ -53,7 +33,7 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        <img
+        {/*<img
           src={logo}
           alt={`Logo Microlope`}
           style={{
@@ -61,36 +41,74 @@ class BlogIndex extends React.Component {
             margin: 'auto',
             width: rhythm(8),
           }}
-        />
+        />*/}
+         {/*<p
+                    style={{
+                      margin: '0',
+                      display: 'flex',
+        justifyContent: 'center',
+                    }}
+                  >
+                    C'est un joli nom...
+                  </p>*/}
         <Grid>
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
+            const color = get(node, 'frontmatter.color')
+            const image = get(
+              node,
+              'frontmatter.image.childImageSharp.responsiveSizes.src'
+            )
             return (
-              <Link style={{ boxShadow: 'none'}} to={node.fields.slug}>
-              <Box key={node.fields.slug}>
-              <Card>
-                <img
-                  src={
-                    node.frontmatter.image.childImageSharp.responsiveSizes.src
-                  }
+              <Box
+                style={{
+                  backgroundImage: 'filter(url('+ image + '), brightness(0.5), contrast(6))',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+                key={node.fields.slug}
+              >
+                <Card
                   style={{
-                    display: 'block',
-                    width: '100%',
-                    height: 'auto',
-                    margin: '0',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                   }}
-                />
-                <Legend>
-                <p style={{margin:'0', padding: '0', color: '#9C9C9A' }}>                  
+                >
+                  <h2
+                    style={{
+                      margin: '0',
+                    }}
+                  >
+                    {node.frontmatter.episode}
+                  </h2>
+                  <h1
+                    style={{
+                      margin: '0',
+                    }}
+                  >
+                    <Link
+                      style={{
+                        height: '100%',
+                      }}
+                      to={node.fields.slug}
+                    >
+                      {title}
+                    </Link>
+                  </h1>
+                </Card>
+                {/*<TopLegend>
+                <p>{node.frontmatter.episode} C'est un joli nom...</p>
+                </TopLegend>*/}
+                {/*</Card>*/}
+                {/*<Box key='{node.fields.slug} + 1'>
+              <p style={{margin:'0', padding: '0', color: '#9C9C9A' }}>                  
                     {title}                  
                 </p>
-                </Legend>
-                <TopLegend>
-                <p>{node.frontmatter.episode}</p>
-                </TopLegend>
-                </Card>
+                </Box>*/}
               </Box>
-              </Link>
+              
             )
           })}
         </Grid>
@@ -121,11 +139,12 @@ export const pageQuery = graphql`
             episode
             image {
               childImageSharp {
-                responsiveSizes(maxWidth: 250) {
+                responsiveSizes(maxWidth: 500) {
                   src
                 }
               }
             }
+            color
           }
         }
       }

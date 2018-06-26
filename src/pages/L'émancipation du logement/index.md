@@ -1,9 +1,12 @@
 ---
-title: L'émancipation du logement
+title: Le logement
 episode: '#1'
 date: "2018-06-11"
 image: "./image.jpg"
+color: "#333"
 ---
+
+#L'émancipation du logement
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nm6PVFgTagw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

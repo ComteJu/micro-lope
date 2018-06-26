@@ -12,9 +12,10 @@ const Next = styled(Link)`
   margin-top: 0;
   padding: ${rhythm(0.2)};
   text-decoration: none;
-  color: white;
+  color: #616161;
+  border: 2px solid #EEEEEE;
   :hover {
-      border: 2px solid white;
+      border: 2px solid #616161;
   }
 `
 
@@ -25,12 +26,11 @@ class BlogPostTemplate extends React.Component {
     const { previous, next } = this.props.pathContext
 
     return (
-      <div>
+      <div>        
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
+        {/*<h1>{post.frontmatter.title}</h1>*/}
         <p
           style={{
-            ...scale(-1 / 5),
             display: 'block',
             marginBottom: rhythm(1),
             marginTop: rhythm(-1),
