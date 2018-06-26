@@ -2,25 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import FullBg from '../components/FullBackground'
-import Header from '../components/Header'
-import Logo from '../components/Logo'
-import logo2 from './logo2.svg'
+import TitleCover from '../components/TitleCover.js'
+import Title from '../components/Title.js'
+
 import logoMain from './LogoMain.svg'
 
-import title from './title.svg'
 import logo from './logo.svg'
-import bgPic from './bg-pic.png'
 import { rhythm, scale } from '../utils/typography'
-
-const HeaderDiv = styled.div`
-  width: 100%;
-  height: 40vh;
-  background-image: url(${logo});
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-`
 
 class Template extends React.Component {
   render() {
@@ -33,71 +21,9 @@ class Template extends React.Component {
     }
 
     if (location.pathname === rootPath) {
-      header = (
-        <div
-            style={{
-              padding: '2em 0',
-              display: 'flex',
-              alignItems: 'flex-end',
-              justifyContent: 'center',
-              backgroundImage: 'url('+bgPic+')',
-              backgroundSize: 'cover',
-              backgroundAttachment:'fixed',
-              backgroundPosition: 'center',
-              borderBottom: '1em solid white',
-              height: '100vh',
-            }}
-          >
-        <Link
-          style={{
-            boxShadow: 'none',
-            textDecoration: 'none',
-            color: 'inherit',
-            opacity: '0.8',
-          }}
-          to={'/'}
-        >
-          <img
-            style={{
-              height: rhythm(5),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-            }}
-            src={logoMain}
-          />
-        </Link>
-        </div>
-      )
+      header = <TitleCover slug="/" logo={logoMain} />
     } else {
-      header = (
-        <div
-            style={{
-              padding: '2em 0',
-              display: 'flex',
-              alignItems: 'flex-end',
-              justifyContent: 'center',
-            }}
-          >
-        <Link
-          style={{
-            boxShadow: 'none',
-            textDecoration: 'none',
-            color: 'inherit',
-            opacity: '0.5',
-          }}
-          to={'/'}
-        >
-          <img
-            style={{
-              height: rhythm(3),
-              marginTop: 0,
-              marginBottom: rhythm(-1),
-            }}
-            src={logo}
-          />
-        </Link>
-        </div>
-      )
+      header = <Title slug="/" logo={logo} />
     }
     return (
       <div
@@ -108,20 +34,16 @@ class Template extends React.Component {
           backgroundColor: '#EEEEEE',
         }}
       >
-      
-            {header}
-          
+        {header}
+
         <div
           style={{
             marginLeft: 'auto',
             marginRight: 'auto',
-            maxWidth: rhythm(32),
+            maxWidth: '42em',
             padding: `${rhythm(1.5)} 0`,
           }}
         >
-          
-
-
           <div
             style={{
               margin: '0 1em',

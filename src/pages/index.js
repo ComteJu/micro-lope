@@ -11,7 +11,6 @@ const Grid = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
   grid-auto-rows: minmax(14em, auto);
   grid-gap: 1em;
-
 `
 
 const Box = styled.article`
@@ -22,7 +21,6 @@ const Card = styled.figure`
   margin-bottom: 0;
 `
 
-import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -33,24 +31,6 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
-        {/*<img
-          src={logo}
-          alt={`Logo Microlope`}
-          style={{
-            display: 'block',
-            margin: 'auto',
-            width: rhythm(8),
-          }}
-        />*/}
-         {/*<p
-                    style={{
-                      margin: '0',
-                      display: 'flex',
-        justifyContent: 'center',
-                    }}
-                  >
-                    C'est un joli nom...
-                  </p>*/}
         <Grid>
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
@@ -62,9 +42,7 @@ class BlogIndex extends React.Component {
             return (
               <Box
                 style={{
-                  backgroundImage: 'filter(url('+ image + '), brightness(0.5), contrast(6))',
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
+                  backgroundColor: color,
                 }}
                 key={node.fields.slug}
               >
@@ -98,15 +76,6 @@ class BlogIndex extends React.Component {
                     </Link>
                   </h1>
                 </Card>
-                {/*<TopLegend>
-                <p>{node.frontmatter.episode} C'est un joli nom...</p>
-                </TopLegend>*/}
-                {/*</Card>*/}
-                {/*<Box key='{node.fields.slug} + 1'>
-              <p style={{margin:'0', padding: '0', color: '#9C9C9A' }}>                  
-                    {title}                  
-                </p>
-                </Box>*/}
               </Box>
               
             )

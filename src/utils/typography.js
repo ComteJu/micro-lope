@@ -21,7 +21,7 @@ doelgerTheme.overrideThemeStyles = () => ({
   },
   'a': {
     textShadow: 'none',
-    color: '#B6DD14',
+    color: 'hsl(191, 81%, 41%)',
     backgroundImage: 'none',
   }
 })
