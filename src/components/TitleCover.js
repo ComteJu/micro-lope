@@ -5,6 +5,7 @@ import bgPic from './bg-pic.png'
 
 
 const Wrap = styled.div`
+  max-width: 100vw;
   height: 100vh;
   padding: 2rem 0;
   display: flex;
@@ -13,7 +14,7 @@ const Wrap = styled.div`
   background-image: url(${bgPic});
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   border-bottom: 1rem solid hsla(191, 70%, 37%, 0.68);
 `
 
