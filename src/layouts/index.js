@@ -7,7 +7,7 @@ import Title from '../components/Title.js'
 
 import logoMain from './LogoMain.svg'
 
-import logo from './logo.svg'
+import logo from './Logo.svg'
 import { rhythm, scale } from '../utils/typography'
 
 class Template extends React.Component {
