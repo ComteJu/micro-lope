@@ -4,7 +4,6 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 import styled from 'styled-components'
-import logo from './logo.png'
 
 const Grid = styled.div`
   display: Grid;
@@ -35,15 +34,12 @@ class BlogIndex extends React.Component {
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
             const color = get(node, 'frontmatter.color')
-            const image = get(
+            /*const image = get(
               node,
               'frontmatter.image.childImageSharp.responsiveSizes.src'
-            )
+            )*/
             return (
               <Box
-                style={{
-                  backgroundColor: color,
-                }}
                 key={node.fields.slug}
               >
                 <Card
@@ -52,6 +48,7 @@ class BlogIndex extends React.Component {
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
+                    backgroundColor: color,
                   }}
                 >
                   <h2
@@ -64,6 +61,7 @@ class BlogIndex extends React.Component {
                   <h1
                     style={{
                       margin: '0',
+                     
                     }}
                   >
                     <Link
@@ -106,13 +104,6 @@ export const pageQuery = graphql`
             date(formatString: "DD MMMM, YYYY")
             title
             episode
-            image {
-              childImageSharp {
-                responsiveSizes(maxWidth: 500) {
-                  src
-                }
-              }
-            }
             color
           }
         }

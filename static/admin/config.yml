@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: ComteJu/micro-lope
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
+    create: true
+    fields:
+      - {label: "episode", name: "episode", widget: "hidden", default: "blog-post"}
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}

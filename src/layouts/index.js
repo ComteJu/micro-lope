@@ -35,7 +35,7 @@ class Template extends React.Component {
         }}
       >
         {header}
-
+  
         <div
           style={{
             marginLeft: 'auto',

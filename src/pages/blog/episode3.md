@@ -1,10 +1,8 @@
 ---
 title: Bientôt
-episode: '#6'
-date: "2018-06-19"
-image: "./image.jpg"
+episode: '#3'
+date: "2018-06-16"
 color: "#fff"
 ---
 
 #####Episode is Coming...
-

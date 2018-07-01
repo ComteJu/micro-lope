@@ -1,8 +1,7 @@
 ---
 title: Bientôt
-episode: '#5'
-date: "2018-06-18"
-image: "./image.jpg"
+episode: '#4'
+date: "2018-06-17"
 color: "#333"
 ---
 

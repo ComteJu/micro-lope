@@ -2,7 +2,6 @@
 title: Le salaire à vie
 episode: '#2'
 date: "2018-06-12"
-image: "./image.jpg"
 color: "#fff"
 ---
 

@@ -2,7 +2,6 @@
 title: Le logement
 episode: '#1'
 date: "2018-06-11"
-image: "./image.jpg"
 color: "#333"
 ---
 
