@@ -13,6 +13,7 @@ collections:
     folder: "src/pages/blog"
     create: true
     fields:
+      - { name: path, label: Path, widget: "string" }
       - {label: "episode", name: "episode", widget: "string"}
       - {label: "title", name: "title", widget: "string"}
       - {label: "color", name: "color", widget: "string"}
