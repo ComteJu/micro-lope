@@ -1,5 +1,4 @@
 ---
-path: à-propos
 episode: ' '
 title: à propos
 color: '#fff'
@@ -16,5 +15,3 @@ Au programme : analyse de la situation, récit de vie et stratégie pour s'éman
 Bonne écoute !
 
 Micro Lopé
-
-Remerciement : Un grand merci à Julien Lecomte pour la réalisation de ce site web, et à Julien Kerglonou pour son aide concernant les outils numériques.
