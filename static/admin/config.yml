@@ -1,6 +1,9 @@
 backend:
   name: github
   repo: ComteJu/micro-lope
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
 
 media_folder: static/assets
 public_folder: assets
