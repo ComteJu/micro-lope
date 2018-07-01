@@ -1,5 +1,5 @@
 ---
-episode: ' '
+episode: 'à-propos'
 title: à propos
 color: '#fff'
 date: '2018-06-19'
