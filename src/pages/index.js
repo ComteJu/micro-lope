@@ -37,7 +37,7 @@ class BlogIndex extends React.Component {
           }}
         ><h3
           style={{
-            paddingTop:'1em',
+            paddingTop:'3em',
             margin:'1em',
             color: 'hsl(191, 81%, 41%)',
           }}
@@ -45,7 +45,7 @@ class BlogIndex extends React.Component {
         <h1
           style={{
             margin:'0',
-            paddingBottom:'1em',
+            paddingBottom:'3em',
             marginBottom: '1em',
             
           }}
@@ -99,7 +99,7 @@ class BlogIndex extends React.Component {
             )
           })}
         </Grid>
-        </div>
+      </div>
     )
   }
 }
