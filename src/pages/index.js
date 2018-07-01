@@ -30,6 +30,26 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={siteTitle} />
+        <div
+          style={{
+            textAlign: 'center',
+            backgroundColor: 'white',
+          }}
+        ><h3
+          style={{
+            paddingTop:'1em',
+            margin:'1em',
+            color: 'hsl(191, 81%, 41%)',
+          }}
+        >Bienvenue dans la Saison 1</h3>
+        <h1
+          style={{
+            margin:'0',
+            paddingBottom:'1em',
+            marginBottom: '1em',
+            
+          }}
+        >C'est un joli nom...</h1></div>
         <Grid>
           {posts.map(({ node }) => {
             const title = get(node, 'frontmatter.title') || node.fields.slug
@@ -79,7 +99,7 @@ class BlogIndex extends React.Component {
             )
           })}
         </Grid>
-      </div>
+        </div>
     )
   }
 }

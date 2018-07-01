@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 import TitleCover from '../components/TitleCover.js'
 import Title from '../components/Title.js'
-
+import mail from './mail.svg'
+import youtube from './youtube.svg'
 import logoMain from './LogoMain.svg'
 
 import logo from './Logo.svg'
@@ -35,7 +36,20 @@ class Template extends React.Component {
         }}
       >
         {header}
-  
+
+        <a href="mailto:microlope.prod@gmail.com"><img style={{
+          position: 'fixed',
+          top: '2em',
+          right: '2em',
+          width: '2em'
+        }}src={mail} /></a>
+        <a href="https://www.youtube.com/channel/UCr1c_PXXr7X10AlGp0Mazgw" target="_blank"><img style={{
+          position: 'fixed',
+          top: '2.1em',
+          right: '5em',
+          width: '2em'
+        }}src={youtube} /></a>
+
         <div
           style={{
             marginLeft: 'auto',
