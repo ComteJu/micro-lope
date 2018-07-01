@@ -1,5 +1,6 @@
 ---
-episode: 'à-propos'
+path: à-propos
+episode: ' '
 title: à propos
 color: '#fff'
 date: '2018-06-19'
