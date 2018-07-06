@@ -1,15 +1,14 @@
 ---
-title: Le logement
 episode: '#1'
-date: "2018-06-11"
-color: "#333"
+title: Le logement
+color: '#333'
+date: '2018-06-11'
 ---
-
-#L'émancipation du logement
+\#L'émancipation du logement
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nm6PVFgTagw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
----
+- - -
 
 Entretien avec Chrystelle, militante et salariée d'une association de défense des locataires. 
 
@@ -22,8 +21,15 @@ Cet entretien veut contribuer à connaître les causes, comprendre ce qui améli
 
 Bonne écoute !
 
----
+- - -
 
 Musique et extrait sonore :
-- L'Esprit de 45, Ken Loach
-- SDF, Allain Leprest
+
+* L'Esprit de 45, Ken Loach
+* SDF, Allain Leprest
+
+- - -
+
+Fichier audio disponible en téléchargement (demande par mail)
+
+Licence Créative Commons : CC-BY
