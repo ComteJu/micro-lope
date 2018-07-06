@@ -26,7 +26,7 @@ Et si une bonne partie de ce qui est écrit ci-dessus vous semble curieux ou com
 * Manifeste pour un statut politique du producteur (Réseau Salariat) : https://www.youtube.com/watch?v=lRHO5...
 * Site de Réseau Salariat (nombreuses vidéos) : http://www.reseau-salariat.info/
 
-
+- - -
 
 Fichier audio disponible en téléchargement (demande par mail)
 
