@@ -10,7 +10,7 @@ date: '2018-06-12'
 
 Entretien avec Bernard Friot.
 
-Une fois comprises les thèses du salaire à vie, et après avoir réalisé qu'elles sont à la fois réalisables et désirables.
+Une fois comprises les thèses du salaire à vie, et après avoir réalisé qu'elles sont à la fois possibles et désirables.
 
 Une fois comprise la puissance du salariat organisé, sa capacité d'innovation (régime général de sécurité sociale) et de solidarité (convention collective, statuts des salariés, co-propriété d'usage des caisses et des coopératives,...)
 
