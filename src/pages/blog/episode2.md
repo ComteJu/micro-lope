@@ -28,6 +28,8 @@ Et si une bonne partie de ce qui est écrit ci-dessus vous semble curieux ou com
 
 - - -
 
-Fichier audio disponible en téléchargement (demande par mail)
+Fichier audio disponible sur [soundcloud](https://soundcloud.com/user-584068809/02-cest-un-joli-nom-strategie-pour-le-salaire-a-vie)
 
-Licence Creative commons : CC-BY
+et en téléchargement (demande par mail)
+
+Licence Creative Commons : CC-BY
