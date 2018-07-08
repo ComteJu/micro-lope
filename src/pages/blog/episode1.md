@@ -34,4 +34,4 @@ Fichier audio disponible sur [soundcloud](https://soundcloud.com/user-584068809/
 
 et en téléchargement (demande par mail)
 
-Licence Créative Commons : CC-BY
+Licence Creative Commons : CC-BY
