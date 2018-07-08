@@ -30,6 +30,8 @@ Musique et extrait sonore :
 
 - - -
 
-Fichier audio disponible en téléchargement (demande par mail)
+Fichier audio disponible sur [soundcloud](https://soundcloud.com/user-584068809/01-cest-un-joli-nom-lemancipation-du-logement-1)
+
+et en téléchargement (demande par mail)
 
 Licence Créative Commons : CC-BY
