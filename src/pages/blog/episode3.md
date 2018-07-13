@@ -12,7 +12,7 @@ Entretien avec Denis, militant écologiste et du mouvement social.
 
 Trop souvent, l'écologie est récupérée : greenwashing, marché lucratif du bio ou élus « verts » peu efficaces.
 
-Cependant, le mot _écologie_ recouvre des traditions, des acteurs et des pratiques très variées – et donc plusieurs visions de l'écologie.
+Cependant, le mot _écologie_ recouvre des traditions, des acteurs et des pratiques très variés – et donc plusieurs visions de l'écologie.
 
 Nous nous intéressons ici à l'une d'elle, à la fois prometteuse et irrécupérable par le patronat et le gouvernement.
 
