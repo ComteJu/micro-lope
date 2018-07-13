@@ -22,8 +22,6 @@ Bonne écoute !
 
 _Au programme : écologie politique, mythe de la disparition du travail,  décroissance, condition économique de l'écologie, syndicalisme et écologie,…_
 
-
-
 - - -
 
 Musique :
