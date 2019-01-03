@@ -11,11 +11,11 @@ Et si on alliait les savoirs féministes et les thèses du salaire à vie ?
 
 Entretien avec Katia, éducatrice populaire et militante féministe.
 
-Parmi d'autres points abordés :\
+Parmi d'autres points abordés :
 
-* quel est l'intérêt de la non-mixité ?\
-* la grammaire est-elle à féminimiser ou à démasculiniser ?\
-* peut-on avoir deux genres sans les hiérarchiser ?\
+* quel est l'intérêt de la non-mixité ?
+* la grammaire est-elle à féminimiser ou à démasculiniser ?
+* peut-on avoir deux genres sans les hiérarchiser ?
 * Queer, black-feminism, matérialiste : descriptions de quelques analyses et stratégies féministes
 
 Bonne écoute ! 
@@ -23,11 +23,11 @@ Bonne écoute !
 
 
 \
-Musique : \
+Musique : 
 
-* Madame, Juliette \
+* Madame, Juliette 
 * Frangines, Anne Sylvestre 
 
-Extrait sonore (intro et conclusion) : \
+Extrait sonore (intro et conclusion) : 
 
 * Battle (Boss), Boxcat games
