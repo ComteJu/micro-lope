@@ -1,10 +1,10 @@
 ---
 episode: ' '
-title: Les médias et nous
+title: '#6 Les médias et nous'
 color: '#fff'
 date: '2018-06-19'
 ---
-\#Les médias et nous
+\#6 Les médias et nous
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ITpACAkGtxE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -12,7 +12,7 @@ date: '2018-06-19'
 
 Entretien avec Vincent, militant de la critique des médias et du réseau salariat.
 
-Pense-t-on un seule seconde que Bernard Arnaud ou Patrick Drahi décident de posséder des médias pour que nous puissions nous instruire, découvrir le monde et exercer nos choix démocratiques ?
+Pense-t-on un seule seconde que Bernard Arnault ou Patrick Drahi décident de posséder des médias pour que nous puissions nous instruire, découvrir le monde et exercer nos choix démocratiques ?
 
 Alors voici la bonne nouvelle  : il est possible d'organiser le travail journalistique en le préservant à la fois des investisseurs (pour les médias dominants) et de la précarité (pour les médias alternatifs).
 
