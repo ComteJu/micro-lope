@@ -12,7 +12,7 @@ date: '2018-06-19'
 
 Entretien avec Vincent, militant de la critique des médias et du réseau salariat.
 
-Pense-t-on un seule seconde que Bernard Arnault ou Patrick Drahi décident de posséder des médias pour que nous puissions nous instruire, découvrir le monde et exercer nos choix démocratiques ?
+Pense-t-on une seule seconde que Bernard Arnault ou Patrick Drahi décident de posséder des médias pour que nous puissions nous instruire, découvrir le monde et exercer nos choix démocratiques ?
 
 Alors voici la bonne nouvelle  : il est possible d'organiser le travail journalistique en le préservant à la fois des investisseurs (pour les médias dominants) et de la précarité (pour les médias alternatifs).
 
@@ -28,15 +28,11 @@ Bonne écoute !
 
 - - -
 
-
-
 Pour aller plus loin :
 
 [Acrimed](https://www.acrimed.org)
 
 [Projet pour une presse libre, article de Pierre Rimbert, Le Monde Diplomatique, 2014](https://www.monde-diplomatique.fr/2014/12/RIMBERT/51030)
-
-
 
 - - -
 
